@@ -1,8 +1,8 @@
 import React from "react";
-import SecondsCounter from "./secondsCounter";
+import SecondsCounter from "./secondsCounter.jsx";
 
 const Home = () => {
-	return <secondsCounter seconds={3434} />;
+	return <SecondsCounter />;
 };
 
 export default Home;
