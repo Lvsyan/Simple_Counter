@@ -1,3 +1,10 @@
+Como hacer el ejercicio:
+
+- Primero cree dos component, Home y SecondsCounter. En uno le pasaba el ejercicio y el otro la funcionalidad
+- Después hice la funcionalidad del ejercicio poniendo el reloj que vaya contando segundos en cada recuardo y después de llegar a 9 pase a 0
+- Para terminar cree los cuadrados y el reloj con boostrap además de dejarlo bonito
+- Por último hice el boton de Reset para que reinicie el contador
+
 # Hello World with React boilerplate
 <p>
   <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />

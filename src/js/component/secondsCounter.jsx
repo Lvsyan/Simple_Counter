@@ -18,13 +18,17 @@ const SecondsCounter = () => {
 		const two = `${Math.floor(timer / 10) % 10}`;
 		const one = `${timer % 10}`;
 
+		const reset = () => {
+			setTimer(0);
+		};
+
 		return (
 			<div className="bg-scondary rounded-circle">
 				<div className="row d-flex justify-content-center text-center fs-1 fw-bold">
 					<div
 						style={{ width: "4rem", height: "4rem" }}
 						className="bg-dark text-white m-2">
-						<i class="fas fa-clock"></i>
+						<i className="fas fa-clock"></i>
 					</div>
 					<div
 						style={{ width: "4rem", height: "4rem" }}
@@ -56,6 +60,7 @@ const SecondsCounter = () => {
 						className="bg-dark text-white m-2">
 						{one}
 					</div>
+					<button onClick={reset}>Reset</button>
 				</div>
 			</div>
 		);
